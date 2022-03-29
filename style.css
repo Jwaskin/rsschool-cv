@@ -1,0 +1,73 @@
+body {
+   margin: 0;
+   padding: 0;
+   max-width: 1440px;
+   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgb(211, 208, 208);
+   margin: 0 30px;
+}
+
+.photo {
+   width: 200px;
+   height: 200px;
+   border-radius: 10%;
+   margin: 30px 0;
+}
+
+.main {
+   display: flex;
+   justify-content: space-around;
+   margin: 0 30px;
+   background-color: rgba(108, 134, 151, 0.493);
+}
+
+.container {
+   background-color: rgba(122, 139, 185, 0.493);
+}
+
+.contacts a {
+   text-decoration: none;
+   list-style: none;
+   color: rgb(211, 208, 208);
+}
+
+.contacts a:hover {
+   color: red;
+}
+
+.contacts a:active {
+   color: rgb(0, 17, 255);
+}
+
+li {
+   line-height: 25px;
+   list-style: none;
+}
+
+.education a {
+   text-decoration: none;
+   list-style: none;
+   color: rgb(211, 208, 208);
+}
+
+.education a:hover {
+   color: red;
+}
+
+.education a:active {
+   color: rgb(0, 17, 255);
+}
+
+.footer {
+   background-color: rgb(165, 157, 157);
+   font-size: 30px;
+   text-align: center;
+   padding-top: 30px;
+   margin: 0 30px;
+}
